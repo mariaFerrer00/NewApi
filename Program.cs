@@ -32,7 +32,6 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
-//builder.Services.AddOpenApiDocument();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddControllers();
 builder.Services.AddAuthorization();
